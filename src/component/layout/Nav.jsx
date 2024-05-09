@@ -37,7 +37,7 @@ export default function Nav() {
                                 <div className="flex flex-shrink-0 items-center">
                                     <img
                                         className="h-8 w-auto"
-                                        src={"../../assets/mini-logo.png"}
+                                        src="../../../public/mini-logo.png"
                                         alt="Your Company"
                                     />
                                 </div>
