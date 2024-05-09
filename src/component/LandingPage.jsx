@@ -13,7 +13,7 @@ export default function LandingPage() {
                             Enter The Photo And I Will Tell You!
                         </p>
                     </div>
-                    <img src={"./../../public/Asset selection-cuate.svg"} className="sm:w-2/3" alt="" />
+                    <img src={"./../assets/asset-selection-animate.svg"} className="sm:w-2/3" alt="" />
 
                 </div>
                 <div className="flex justify-center mb-20">
