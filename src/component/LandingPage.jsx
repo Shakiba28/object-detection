@@ -1,4 +1,4 @@
-import landingImg from '../../public/asset-selection-animate.svg'
+import landingImg from '../assets/asset-selection-animate.svg'
 export default function LandingPage() {
 
     return (

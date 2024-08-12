@@ -3,7 +3,7 @@ import { FaTelegram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 
-import logo from '../../../public/logo.png'
+import logo from '../../assets/logo.png'
 
 export default function Footer() {
     return (
