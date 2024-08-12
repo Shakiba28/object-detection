@@ -1,4 +1,4 @@
-
+import landingImg from '../../public/asset-selection-animate.svg'
 export default function LandingPage() {
 
     return (
@@ -13,7 +13,7 @@ export default function LandingPage() {
                             Enter The Photo And I Will Tell You!
                         </p>
                     </div>
-                    <img src="./../../public/asset-selection-animate.svg" className="sm:w-2/3" alt="" />
+                    <img src={landingImg} className="sm:w-2/3" alt="" />
 
                 </div>
                 <div className="flex justify-center mb-20">

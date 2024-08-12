@@ -3,6 +3,8 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import { Link, NavLink } from 'react-router-dom'
 
+import miniLogo from "../../../public/mini-logo.png"
+
 const navigation = [
     { name: 'Home', href: '/', current: true },
     { name: 'About', href: '/about', current: false },
@@ -37,7 +39,7 @@ export default function Nav() {
                                 <div className="flex flex-shrink-0 items-center">
                                     <img
                                         className="h-8 w-auto"
-                                        src="../../../public/mini-logo.png"
+                                        src={miniLogo}
                                         alt="Your Company"
                                     />
                                 </div>
